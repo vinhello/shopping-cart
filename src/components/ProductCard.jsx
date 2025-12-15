@@ -8,7 +8,7 @@ export function ProductCard({ product, onAddToCart }) {
   };
 
   const handleIncrease = () => {
-    setQuantity((prev) => Math.max(1, prev - 1));
+    setQuantity((prev) => Math.max(1, prev + 1));
   };
 
   const handleQuantityChange = (e) => {
@@ -26,7 +26,7 @@ export function ProductCard({ product, onAddToCart }) {
     <article className="product-card">
       <div className="product-card__image-container">
         <img
-          src={product.img}
+          src={product.image}
           alt={product.title}
           className="product-card__image"
         />

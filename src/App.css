@@ -115,13 +115,6 @@
   }
 }
 
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-}
-
 .shop-page {
   padding: 2rem;
 }
@@ -131,11 +124,27 @@
 }
 
 /* Grid layout for cards */
+/* Remove duplicate .products-grid rules and use this: */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
   padding: 1rem 0;
+  /* 1 column on mobile */
+  grid-template-columns: 1fr;
+}
+
+/* 2 columns on tablets */
+@media (min-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3 columns on desktop */
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* Loading spinner */

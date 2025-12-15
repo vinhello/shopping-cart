@@ -9,12 +9,33 @@ export default function ShopPage() {
 
   // Handle "Add to Cart" functionality
   const handleAddToCart = (product, quantity) => {
-    // CODE
+    // Call addToCart with product and quality
+    addToCart(product, quantity);
   };
 
   // Display loading spinner while fetching
+  if (loading) {
+    return (
+      <div className="shop-page">
+        <h1>Shop</h1>
+        <div className="loading-spinner">
+          <p>Loading products...</p>
+        </div>
+      </div>
+    );
+  }
 
   // Display error message if fetch fails
+  if (error) {
+    return (
+      <div className="shop-page">
+        <h1>Shop</h1>
+        <div className="error-message">
+          <p>Error loading products: {error.message}</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="shop-page">
