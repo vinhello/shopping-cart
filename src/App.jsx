@@ -4,6 +4,7 @@ import { CartProvider } from "./context/CartProvider";
 import HomePage from "./components/HomePage";
 import ShopPage from "./components/ShopPage";
 import CartPage from "./components/CartPage";
+import "./App.css";
 
 const router = createBrowserRouter([
   {
