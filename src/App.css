@@ -53,7 +53,7 @@
 .navbar__logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #646cff 0%, #535bf2 100%);
+  background: linear-gradient(135deg, #228b22 0%, #1a6b1a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -92,8 +92,8 @@
 /* Active state */
 .navbar .nav-link.active,
 .navbar a.nav-link.active {
-  background-color: rgba(100, 108, 255, 0.2);
-  color: #646cff !important;
+  background-color: rgba(34, 139, 34, 0.2);
+  color: #228b22 !important;
   font-weight: 600;
 }
 
@@ -200,7 +200,7 @@
 .product-card__price {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #646cff;
+  color: #228b22;
   margin: 0;
 }
 
@@ -259,7 +259,7 @@
   width: 100%;
   padding: 0.75rem;
   font-weight: 600;
-  background-color: #646cff;
+  background-color: #228b22;
   color: white;
   border: none;
   border-radius: 8px;
@@ -267,7 +267,7 @@
 }
 
 .product-card__add-btn:hover {
-  background-color: #535bf2;
+  background-color: #1a6b1a;
 }
 
 @media (min-width: 768px) {
@@ -315,7 +315,7 @@
 }
 
 .home-page__title-gradient {
-  background: linear-gradient(135deg, #646cff 0%, #535bf2 50%, #747bff 100%);
+  background: linear-gradient(135deg, #228b22 0%, #1a6b1a 50%, #3cb371 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -342,19 +342,19 @@
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
   font-weight: 600;
-  background: linear-gradient(135deg, #646cff 0%, #535bf2 100%);
+  background: linear-gradient(135deg, #228b22 0%, #1a6b1a 100%);
   color: white;
   text-decoration: none;
   border-radius: 12px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
   margin-top: 1rem;
 }
 
 .home-page__cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(100, 108, 255, 0.4);
-  background: linear-gradient(135deg, #535bf2 0%, #646cff 100%);
+  box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+  background: linear-gradient(135deg, #1a6b1a 0%, #228b22 100%);
 }
 
 /* Features Section */
@@ -383,7 +383,7 @@
 .home-page__feature-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-  border-color: rgba(100, 108, 255, 0.3);
+  border-color: rgba(34, 139, 34, 0.3);
   background-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -715,7 +715,7 @@
 .cart-item__subtotal {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #646cff;
+  color: #228b22;
   min-width: 100px;
   text-align: right;
   flex-shrink: 0;
@@ -750,8 +750,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
-  background-color: rgba(100, 108, 255, 0.1);
-  border: 1px solid rgba(100, 108, 255, 0.2);
+  background-color: rgba(34, 139, 34, 0.1);
+  border: 1px solid rgba(34, 139, 34, 0.2);
   border-radius: 12px;
 }
 
@@ -764,7 +764,7 @@
 .cart-page__total-amount {
   font-size: 2rem;
   font-weight: 700;
-  color: #646cff;
+  color: #228b22;
 }
 
 /* Responsive Design for Cart Page */
