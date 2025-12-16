@@ -35,7 +35,6 @@ export function ProductCard({ product, onAddToCart }) {
       <div className="product-card__content">
         <h2 className="product-card__title">{product.title}</h2>
         <p className="product-card__price">${product.price.toFixed(2)}</p>
-        <p className="product-card__description">{product.description}</p>
 
         <div className="product-card__quantity-controls">
           <button
