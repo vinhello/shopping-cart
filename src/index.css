@@ -7,6 +7,16 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  /* CSS Variables for theme colors - Dark mode defaults */
+  --text-primary: rgba(255, 255, 255, 0.87);
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --bg-primary: #242424;
+  --bg-secondary: rgba(255, 255, 255, 0.05);
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --image-bg: #2a2a2a;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,7 +26,7 @@
 /* Global link styles - will be overridden by component-specific styles */
 a {
   font-weight: 500;
-  color: #228B22;
+  color: #228b22;
   text-decoration: inherit;
 }
 
@@ -67,7 +77,7 @@ button {
 }
 
 button:hover {
-  border-color: #228B22;
+  border-color: #228b22;
   background-color: rgba(34, 139, 34, 0.1);
 }
 
@@ -80,6 +90,16 @@ button:focus-visible {
   :root {
     color: #213547;
     background-color: #ffffff;
+
+    /* CSS Variables for light mode */
+    --text-primary: #213547;
+    --text-secondary: rgba(33, 53, 71, 0.8);
+    --text-muted: rgba(33, 53, 71, 0.7);
+    --bg-primary: #ffffff;
+    --bg-secondary: rgba(0, 0, 0, 0.05);
+    --bg-card: rgba(0, 0, 0, 0.03);
+    --border-color: rgba(0, 0, 0, 0.1);
+    --image-bg: #f0f0f0;
   }
 
   body {
